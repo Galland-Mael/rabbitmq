@@ -21,6 +21,14 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    //rabbitmq
+    implementation 'org.springframework.amqp:spring-rabbit:4.0.0-M1'
+
+    //spring web
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.4.3'
+
+
 }
 
 tasks.named('test') {
